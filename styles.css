@@ -1,0 +1,24 @@
+/* stles sheet for index of Mom's website */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFECD1;
+    justify-content: space-between;
+}
+
+.about {
+    background-color: #15616D;
+    color: white;
+    height: 150px;
+}
+
+.photo {
+    background-color: #001524;
+    color: white;
+    height: 500px;
+}
