@@ -7,31 +7,44 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    background-color: #FFECD1;
+    background-color: #00afb9;
     justify-content: space-between;
 }
 
 .about {
-    background-color: #15616D;
+    margin: 0;
+    background-color: #fdfcdc;
     color: white;
     height: 150px;
 }
 
-h1 {
+h1, h2 {
     margin: 0;
 }
 
 .photo-contents {
-    background-color: #001524;
+    background-color: #fed9b7;
     color: white;
-    height: 500px;
+    max-height: fit-content;
 }
 
 img {
-    max-width: 200px;
-    max-height: 150px;
+    max-width: 400px;
+    max-height: 300px;
 }
 
 img:hover {
-    opacity: 50%;
+    opacity: 75%;
+}
+
+.contact {
+
+}
+
+.footer {
+    font-size: 10px;
+    background-color: darkslateblue;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
